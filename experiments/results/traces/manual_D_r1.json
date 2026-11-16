@@ -1,0 +1,35 @@
+{
+  "goal": "Опиши метод TRACE",
+  "model": "gemini-3.5-flash-lite",
+  "limits": {
+    "max_steps": 6,
+    "max_actions": 6,
+    "max_llm_calls": 8
+  },
+  "stop_reason": "finish",
+  "steps": 2,
+  "llm_calls": 2,
+  "actions": 1,
+  "trace": [
+    {
+      "step": 1,
+      "action": "lookup_http_method",
+      "arguments": {
+        "name": "trace"
+      },
+      "decision_summary": "Потрібно отримати інформацію про метод TRACE для опису.",
+      "observation": "NOT_FOUND: no verified information about 'trace'.",
+      "seconds": 0.8
+    },
+    {
+      "step": 2,
+      "action": "finish",
+      "arguments": {
+        "answer": "Інформація про метод TRACE відсутня у перевірених джерелах."
+      },
+      "decision_summary": "Since the observation returned NOT_FOUND for trace, we must finish with a statement that the information is missing.",
+      "observation": null,
+      "seconds": 0.89
+    }
+  ]
+}

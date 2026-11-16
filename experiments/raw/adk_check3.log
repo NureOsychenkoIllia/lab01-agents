@@ -1,0 +1,120 @@
+[user]: Опиши метод TRACE
+[adk_agent]: 
+[tool_call: lookup_http_method({"name": "TRACE"})]
+{
+  "modelVersion": "gemini-3.5-flash-lite",
+  "content": {
+    "parts": [
+      {
+        "functionCall": {
+          "id": "call_16251922568699000213",
+          "args": {
+            "name": "TRACE"
+          },
+          "name": "lookup_http_method"
+        },
+        "thoughtSignature": "EmAKXgFpFH0TgpZapUBcgHVDsVmer78l2Lj85R6MVCP8aYCqaJh82FdOKRt-MkeCHquaQXyUvRb__WDlMwQ5xa_vaBDGtEbocuAncZ4M_SakKGS6X5eLuXW99vmYYZV_lZQ="
+      }
+    ],
+    "role": "model"
+  },
+  "finishReason": "STOP",
+  "usageMetadata": {
+    "candidatesTokenCount": 18,
+    "promptTokenCount": 695,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 695
+      }
+    ],
+    "totalTokenCount": 713
+  },
+  "invocationId": "e-37e97fdc-66ee-419a-872f-4672929089e3",
+  "author": "adk_agent",
+  "actions": {
+    "stateDelta": {},
+    "artifactDelta": {},
+    "requestedAuthConfigs": {},
+    "requestedToolConfirmations": {}
+  },
+  "nodeInfo": {
+    "path": "adk_agent@1"
+  },
+  "longRunningToolIds": [],
+  "id": "ec6662ea-19fa-419e-941e-1435fb691e88",
+  "timestamp": 1794838515.5027726
+}
+
+[tool_response: lookup_http_method -> {"result": "NOT_FOUND: no verified information about 'TRACE'."}]
+{
+  "content": {
+    "parts": [
+      {
+        "functionResponse": {
+          "id": "call_16251922568699000213",
+          "name": "lookup_http_method",
+          "response": {
+            "result": "NOT_FOUND: no verified information about 'TRACE'."
+          }
+        }
+      }
+    ],
+    "role": "user"
+  },
+  "invocationId": "e-37e97fdc-66ee-419a-872f-4672929089e3",
+  "author": "adk_agent",
+  "actions": {
+    "stateDelta": {},
+    "artifactDelta": {},
+    "requestedAuthConfigs": {},
+    "requestedToolConfirmations": {}
+  },
+  "nodeInfo": {
+    "path": "adk_agent@1"
+  },
+  "id": "6bd561db-6ac5-4e41-899c-efea165a21dc",
+  "timestamp": 1794838515.5034876
+}
+Перевірених даних про метод TRACE немає.
+{
+  "modelVersion": "gemini-3.5-flash-lite",
+  "content": {
+    "parts": [
+      {
+        "text": "\u041f\u0435\u0440\u0435\u0432\u0456\u0440\u0435\u043d\u0438\u0445 \u0434\u0430\u043d\u0438\u0445 \u043f\u0440\u043e \u043c\u0435\u0442\u043e\u0434 TRACE \u043d\u0435\u043c\u0430\u0454.",
+        "thoughtSignature": "EmAKXgFpFH0TWDXqnCGQc-6M_BnBsvwxljeKpw1gdNSQsYda3HoOS20l8dSdZpNsfIo3K222LmglX54axNsVJgUhvkDtQRjft1trF_7efWQAd10mSLarxpQicW8PHwtl-08="
+      }
+    ],
+    "role": "model"
+  },
+  "finishReason": "STOP",
+  "usageMetadata": {
+    "candidatesTokenCount": 11,
+    "promptTokenCount": 739,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 739
+      }
+    ],
+    "totalTokenCount": 750
+  },
+  "invocationId": "e-37e97fdc-66ee-419a-872f-4672929089e3",
+  "author": "adk_agent",
+  "actions": {
+    "stateDelta": {},
+    "artifactDelta": {},
+    "requestedAuthConfigs": {},
+    "requestedToolConfirmations": {}
+  },
+  "nodeInfo": {
+    "path": "adk_agent@1"
+  },
+  "id": "d502f19f-dd2e-48b9-b548-daa477a25ab6",
+  "timestamp": 1794838516.118747
+}
+
+
+Session: 246ac60e-e988-44c7-88cf-efc64d2d83ca
+  Resume with: agents-cli run "<message>" --session-id 246ac60e-e988-44c7-88cf-efc64d2d83ca

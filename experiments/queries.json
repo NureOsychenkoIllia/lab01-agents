@@ -1,0 +1,37 @@
+[
+  {
+    "id": "A",
+    "type": "A",
+    "query": "Що робить метод PATCH?",
+    "purpose": "один об'єкт",
+    "expected": "lookup_http_method(patch) -> finish"
+  },
+  {
+    "id": "B",
+    "type": "B",
+    "query": "Порівняй GET і HEAD",
+    "purpose": "порівняння двох об'єктів",
+    "expected": "lookup_http_method(get), lookup_http_method(head) -> finish"
+  },
+  {
+    "id": "C",
+    "type": "C",
+    "query": "Порівняй POST, PUT і PATCH",
+    "purpose": "порівняння трьох об'єктів",
+    "expected": "три lookup_http_method -> finish"
+  },
+  {
+    "id": "D",
+    "type": "D",
+    "query": "Опиши метод TRACE",
+    "purpose": "об'єкт, якого немає в середовищі",
+    "expected": "lookup_http_method(trace) -> NOT_FOUND -> finish з визнанням відсутності даних"
+  },
+  {
+    "id": "E",
+    "type": "E",
+    "query": "Що таке методи HTTP взагалі?",
+    "purpose": "загальне питання, цикл зайвий",
+    "expected": "finish одразу без дій"
+  }
+]

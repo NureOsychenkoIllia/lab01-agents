@@ -1,0 +1,123 @@
+[user]: Чи ідемпотентний PATCH?
+[adk_agent]: 
+[tool_call: check_property({"method": "patch", "property": "idempotent"})]
+{
+  "modelVersion": "gemini-3.5-flash-lite",
+  "content": {
+    "parts": [
+      {
+        "functionCall": {
+          "id": "call_17079750004205795023",
+          "args": {
+            "method": "patch",
+            "property": "idempotent"
+          },
+          "name": "check_property"
+        },
+        "thoughtSignature": "EmAKXgFpFH0TcpKt51MNvlR1nrdGwk2QKSCV8TwydSjK4n2DKv9-sfauttlbT4nz1FDp0bujPsNy6kidUUfLQ_t4QFHACxSExx-cy2i97AbnZkBNr31GWehoC8snquQ9--o="
+      }
+    ],
+    "role": "model"
+  },
+  "finishReason": "STOP",
+  "usageMetadata": {
+    "candidatesTokenCount": 24,
+    "promptTokenCount": 697,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 697
+      }
+    ],
+    "totalTokenCount": 721
+  },
+  "invocationId": "e-e9abb610-5ce2-4bf6-9828-8c264f96fe6c",
+  "author": "adk_agent",
+  "actions": {
+    "stateDelta": {},
+    "artifactDelta": {},
+    "requestedAuthConfigs": {},
+    "requestedToolConfirmations": {}
+  },
+  "nodeInfo": {
+    "path": "adk_agent@1"
+  },
+  "longRunningToolIds": [],
+  "id": "f2622ce5-ba4c-4b52-ba0a-5eb74543711f",
+  "timestamp": 1794838519.8448455
+}
+
+[tool_response: check_property -> {"result": "patch: idempotent=no; repeating the same request has the same effect (RFC 9110, 9.2.2)"}]
+{
+  "content": {
+    "parts": [
+      {
+        "functionResponse": {
+          "id": "call_17079750004205795023",
+          "name": "check_property",
+          "response": {
+            "result": "patch: idempotent=no; repeating the same request has the same effect (RFC 9110, 9.2.2)"
+          }
+        }
+      }
+    ],
+    "role": "user"
+  },
+  "invocationId": "e-e9abb610-5ce2-4bf6-9828-8c264f96fe6c",
+  "author": "adk_agent",
+  "actions": {
+    "stateDelta": {},
+    "artifactDelta": {},
+    "requestedAuthConfigs": {},
+    "requestedToolConfirmations": {}
+  },
+  "nodeInfo": {
+    "path": "adk_agent@1"
+  },
+  "id": "34afdcc9-39f5-413a-977f-333a327df1f0",
+  "timestamp": 1794838519.8454497
+}
+Метод PATCH **не** ідемпотентний. 
+
+Повторення того самого запиту може мати інший ефект (згідно з RFC 9110, 9.2.2).
+{
+  "modelVersion": "gemini-3.5-flash-lite",
+  "content": {
+    "parts": [
+      {
+        "text": "\u041c\u0435\u0442\u043e\u0434 PATCH **\u043d\u0435** \u0456\u0434\u0435\u043c\u043f\u043e\u0442\u0435\u043d\u0442\u043d\u0438\u0439. \n\n\u041f\u043e\u0432\u0442\u043e\u0440\u0435\u043d\u043d\u044f \u0442\u043e\u0433\u043e \u0441\u0430\u043c\u043e\u0433\u043e \u0437\u0430\u043f\u0438\u0442\u0443 \u043c\u043e\u0436\u0435 \u043c\u0430\u0442\u0438 \u0456\u043d\u0448\u0438\u0439 \u0435\u0444\u0435\u043a\u0442 (\u0437\u0433\u0456\u0434\u043d\u043e \u0437 RFC 9110, 9.2.2).",
+        "thoughtSignature": "EmAKXgFpFH0Tl1LqQOR4D9-mWEhAs2oQ9cDOeq4HOGzuRLpVBXepS85jxdFfuGc6YuSXNvDlr_oV06pN7z1b6p730MlKvNtJGrMZsnSAwdDGhhkc65UYts3Ttf33QYT8hoU="
+      }
+    ],
+    "role": "model"
+  },
+  "finishReason": "STOP",
+  "usageMetadata": {
+    "candidatesTokenCount": 47,
+    "promptTokenCount": 763,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 763
+      }
+    ],
+    "totalTokenCount": 810
+  },
+  "invocationId": "e-e9abb610-5ce2-4bf6-9828-8c264f96fe6c",
+  "author": "adk_agent",
+  "actions": {
+    "stateDelta": {},
+    "artifactDelta": {},
+    "requestedAuthConfigs": {},
+    "requestedToolConfirmations": {}
+  },
+  "nodeInfo": {
+    "path": "adk_agent@1"
+  },
+  "id": "03df0ebf-06aa-4d56-ba75-4b38f9147905",
+  "timestamp": 1794838520.943398
+}
+
+
+Session: b9ca87c8-fdbf-4ad2-98e8-74b765658d46
+  Resume with: agents-cli run "<message>" --session-id b9ca87c8-fdbf-4ad2-98e8-74b765658d46

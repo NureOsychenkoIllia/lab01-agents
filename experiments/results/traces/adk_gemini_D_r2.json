@@ -1,0 +1,296 @@
+[
+  {
+    "model_version": "gemini-3.5-flash-lite",
+    "content": {
+      "parts": [
+        {
+          "media_resolution": null,
+          "code_execution_result": null,
+          "executable_code": null,
+          "file_data": null,
+          "function_call": {
+            "id": "call_560115411899367910",
+            "args": {
+              "name": "TRACE"
+            },
+            "name": "lookup_http_method",
+            "partial_args": null,
+            "will_continue": null
+          },
+          "function_response": null,
+          "inline_data": null,
+          "text": null,
+          "thought": null,
+          "thought_signature": "EmAKXgFpFH0T6A-jvnfFqvsOSKy21n47zvQeM1pvZUM0SYzaYR3YhZpQlHyXe8VyWDfAF0jiTtOBJdQhrLXOW6dXCFi1rTN0msokNFub0tEIA29tMAH3-ISxihceDHmfR5c=",
+          "video_metadata": null,
+          "tool_call": null,
+          "tool_response": null,
+          "part_metadata": null,
+          "audio_transcription": null,
+          "media_processing": null,
+          "speech_metadata": null
+        }
+      ],
+      "role": "model"
+    },
+    "grounding_metadata": null,
+    "partial": null,
+    "turn_complete": null,
+    "turn_complete_reason": null,
+    "interaction_status": null,
+    "finish_reason": "STOP",
+    "error_code": null,
+    "error_message": null,
+    "interrupted": null,
+    "custom_metadata": null,
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 18,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 695,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 695
+        }
+      ],
+      "thoughts_token_count": null,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 713,
+      "traffic_type": null
+    },
+    "cache_creation_token_count": null,
+    "live_session_resumption_update": null,
+    "live_session_id": null,
+    "go_away": null,
+    "voice_activity": null,
+    "input_transcription": null,
+    "output_transcription": null,
+    "avg_logprobs": null,
+    "logprobs_result": null,
+    "cache_metadata": null,
+    "citation_metadata": null,
+    "interaction_id": null,
+    "environment_id": null,
+    "invocation_id": "e-43788efc-5b42-49da-be8b-d3f924b0f3fd",
+    "author": "adk_agent",
+    "actions": {
+      "skip_summarization": null,
+      "state_delta": {},
+      "artifact_delta": {},
+      "transfer_to_agent": null,
+      "transfer_reason": null,
+      "escalate": null,
+      "requested_auth_configs": {},
+      "requested_tool_confirmations": {},
+      "compaction": null,
+      "end_of_agent": null,
+      "agent_state": null,
+      "rewind_before_invocation_id": null,
+      "route": null,
+      "render_ui_widgets": null,
+      "set_model_response": null
+    },
+    "output": null,
+    "node_info": {
+      "path": "adk_agent@1",
+      "output_for": null,
+      "message_as_output": null
+    },
+    "long_running_tool_ids": [],
+    "branch": null,
+    "isolation_scope": null,
+    "id": "425ec270-67f9-49dc-b91e-3b891252dfce",
+    "timestamp": 1794838752.7070892
+  },
+  {
+    "model_version": null,
+    "content": {
+      "parts": [
+        {
+          "media_resolution": null,
+          "code_execution_result": null,
+          "executable_code": null,
+          "file_data": null,
+          "function_call": null,
+          "function_response": {
+            "will_continue": null,
+            "scheduling": null,
+            "parts": null,
+            "id": "call_560115411899367910",
+            "name": "lookup_http_method",
+            "response": {
+              "result": "NOT_FOUND: no verified information about 'TRACE'."
+            }
+          },
+          "inline_data": null,
+          "text": null,
+          "thought": null,
+          "thought_signature": null,
+          "video_metadata": null,
+          "tool_call": null,
+          "tool_response": null,
+          "part_metadata": null,
+          "audio_transcription": null,
+          "media_processing": null,
+          "speech_metadata": null
+        }
+      ],
+      "role": "user"
+    },
+    "grounding_metadata": null,
+    "partial": null,
+    "turn_complete": null,
+    "turn_complete_reason": null,
+    "interaction_status": null,
+    "finish_reason": null,
+    "error_code": null,
+    "error_message": null,
+    "interrupted": null,
+    "custom_metadata": null,
+    "usage_metadata": null,
+    "cache_creation_token_count": null,
+    "live_session_resumption_update": null,
+    "live_session_id": null,
+    "go_away": null,
+    "voice_activity": null,
+    "input_transcription": null,
+    "output_transcription": null,
+    "avg_logprobs": null,
+    "logprobs_result": null,
+    "cache_metadata": null,
+    "citation_metadata": null,
+    "interaction_id": null,
+    "environment_id": null,
+    "invocation_id": "e-43788efc-5b42-49da-be8b-d3f924b0f3fd",
+    "author": "adk_agent",
+    "actions": {
+      "skip_summarization": null,
+      "state_delta": {},
+      "artifact_delta": {},
+      "transfer_to_agent": null,
+      "transfer_reason": null,
+      "escalate": null,
+      "requested_auth_configs": {},
+      "requested_tool_confirmations": {},
+      "compaction": null,
+      "end_of_agent": null,
+      "agent_state": null,
+      "rewind_before_invocation_id": null,
+      "route": null,
+      "render_ui_widgets": null,
+      "set_model_response": null
+    },
+    "output": null,
+    "node_info": {
+      "path": "adk_agent@1",
+      "output_for": null,
+      "message_as_output": null
+    },
+    "long_running_tool_ids": null,
+    "branch": null,
+    "isolation_scope": null,
+    "id": "2a143f4b-cf49-46a9-8c3f-118cb87b8e84",
+    "timestamp": 1794838752.7074795
+  },
+  {
+    "model_version": "gemini-3.5-flash-lite",
+    "content": {
+      "parts": [
+        {
+          "media_resolution": null,
+          "code_execution_result": null,
+          "executable_code": null,
+          "file_data": null,
+          "function_call": null,
+          "function_response": null,
+          "inline_data": null,
+          "text": "На жаль, перевірених даних про метод TRACE немає.",
+          "thought": null,
+          "thought_signature": "EmAKXgFpFH0TVRw-8KZ7nC8Jm1F5jfjipNgjKR11FmnRWn1KHKccyhD9AXRu2YApApi8QG630D1A296ylwGigVAa_jSfeMfLQMD-9TpJlpTe62C_lWyBxtaUyKbJtYThRH0=",
+          "video_metadata": null,
+          "tool_call": null,
+          "tool_response": null,
+          "part_metadata": null,
+          "audio_transcription": null,
+          "media_processing": null,
+          "speech_metadata": null
+        }
+      ],
+      "role": "model"
+    },
+    "grounding_metadata": null,
+    "partial": null,
+    "turn_complete": null,
+    "turn_complete_reason": null,
+    "interaction_status": null,
+    "finish_reason": "STOP",
+    "error_code": null,
+    "error_message": null,
+    "interrupted": null,
+    "custom_metadata": null,
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 15,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 739,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 739
+        }
+      ],
+      "thoughts_token_count": null,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 754,
+      "traffic_type": null
+    },
+    "cache_creation_token_count": null,
+    "live_session_resumption_update": null,
+    "live_session_id": null,
+    "go_away": null,
+    "voice_activity": null,
+    "input_transcription": null,
+    "output_transcription": null,
+    "avg_logprobs": null,
+    "logprobs_result": null,
+    "cache_metadata": null,
+    "citation_metadata": null,
+    "interaction_id": null,
+    "environment_id": null,
+    "invocation_id": "e-43788efc-5b42-49da-be8b-d3f924b0f3fd",
+    "author": "adk_agent",
+    "actions": {
+      "skip_summarization": null,
+      "state_delta": {},
+      "artifact_delta": {},
+      "transfer_to_agent": null,
+      "transfer_reason": null,
+      "escalate": null,
+      "requested_auth_configs": {},
+      "requested_tool_confirmations": {},
+      "compaction": null,
+      "end_of_agent": null,
+      "agent_state": null,
+      "rewind_before_invocation_id": null,
+      "route": null,
+      "render_ui_widgets": null,
+      "set_model_response": null
+    },
+    "output": null,
+    "node_info": {
+      "path": "adk_agent@1",
+      "output_for": null,
+      "message_as_output": null
+    },
+    "long_running_tool_ids": null,
+    "branch": null,
+    "isolation_scope": null,
+    "id": "359b2812-1d48-4aa5-be2e-bba316e5aa74",
+    "timestamp": 1794838754.1768231
+  }
+]

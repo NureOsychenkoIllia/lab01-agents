@@ -1,0 +1,25 @@
+{
+  "gemini-3_5-flash-lite/oneshot/A": {"correctness": 2, "grounded": "частково", "hallucination": "ні"},
+  "gemini-3_5-flash-lite/oneshot/B": {"correctness": 2, "grounded": "частково", "hallucination": "ні"},
+  "gemini-3_5-flash-lite/oneshot/C": {"correctness": 2, "grounded": "частково", "hallucination": "ні"},
+  "gemini-3_5-flash-lite/oneshot/D": {"correctness": 0, "grounded": "ні", "hallucination": "так"},
+  "gemini-3_5-flash-lite/oneshot/E": {"correctness": 2, "grounded": "ні", "hallucination": "ні"},
+
+  "gemini-3_5-flash-lite/manual/A": {"correctness": 2, "grounded": "так", "hallucination": "ні"},
+  "gemini-3_5-flash-lite/manual/B": {"correctness": 2, "grounded": "так", "hallucination": "ні"},
+  "gemini-3_5-flash-lite/manual/C": {"correctness": 2, "grounded": "так", "hallucination": "ні"},
+  "gemini-3_5-flash-lite/manual/D": {"correctness": 2, "grounded": "так", "hallucination": "ні"},
+  "gemini-3_5-flash-lite/manual/E": {"correctness": 2, "grounded": "частково", "hallucination": "ні"},
+
+  "gemini-3_5-flash-lite/adk/A": {"correctness": 2, "grounded": "так", "hallucination": "ні"},
+  "gemini-3_5-flash-lite/adk/B": {"correctness": 2, "grounded": "так", "hallucination": "ні"},
+  "gemini-3_5-flash-lite/adk/C": {"correctness": 2, "grounded": "так", "hallucination": "ні"},
+  "gemini-3_5-flash-lite/adk/D": {"correctness": 2, "grounded": "так", "hallucination": "ні"},
+  "gemini-3_5-flash-lite/adk/E": {"correctness": 2, "grounded": "ні", "hallucination": "ні"},
+
+  "local:openai/spark/adk/A": {"correctness": 1, "grounded": "частково", "hallucination": "ні"},
+  "local:openai/spark/adk/B": {"correctness": 1, "grounded": "так", "hallucination": "ні"},
+  "local:openai/spark/adk/C": {"correctness": 1, "grounded": "так", "hallucination": "ні"},
+  "local:openai/spark/adk/D": {"correctness": 2, "grounded": "так", "hallucination": "ні"},
+  "local:openai/spark/adk/E": {"correctness": 1, "grounded": "ні", "hallucination": "ні"}
+}

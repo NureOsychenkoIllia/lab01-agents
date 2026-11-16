@@ -1,0 +1,100 @@
+[
+  {
+    "model_version": "gemini-3.5-flash-lite",
+    "content": {
+      "parts": [
+        {
+          "media_resolution": null,
+          "code_execution_result": null,
+          "executable_code": null,
+          "file_data": null,
+          "function_call": null,
+          "function_response": null,
+          "inline_data": null,
+          "text": "Методи HTTP (також відомі як дієслова HTTP) — це стандартні операції, які визначають тип дії, яку клієнт (наприклад, веббраузер) хоче виконати над ресурсом на сервері. Вони вказують на семантичну мету запиту: чи потрібно отримати дані (наприклад, `GET`), надіслати нові дані (`POST`), оновити наявні (`PUT` / `PATCH`) чи видалити ресурс (`DELETE`).",
+          "thought": null,
+          "thought_signature": "EmAKXgFpFH0THPssHJ-lobdozM9v_jpR7bMsb8H06YEDiiOJEF61mqFMBBsw7VcmS5e7pC8Sck1Szh8Ec1D3g8ohIin40pV2mDcdPPWf-lQ3z7YhvhXtYnEIzj2m26AtGyI=",
+          "video_metadata": null,
+          "tool_call": null,
+          "tool_response": null,
+          "part_metadata": null,
+          "audio_transcription": null,
+          "media_processing": null,
+          "speech_metadata": null
+        }
+      ],
+      "role": "model"
+    },
+    "grounding_metadata": null,
+    "partial": null,
+    "turn_complete": null,
+    "turn_complete_reason": null,
+    "interaction_status": null,
+    "finish_reason": "STOP",
+    "error_code": null,
+    "error_message": null,
+    "interrupted": null,
+    "custom_metadata": null,
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 109,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 698,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 698
+        }
+      ],
+      "thoughts_token_count": null,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 807,
+      "traffic_type": null
+    },
+    "cache_creation_token_count": null,
+    "live_session_resumption_update": null,
+    "live_session_id": null,
+    "go_away": null,
+    "voice_activity": null,
+    "input_transcription": null,
+    "output_transcription": null,
+    "avg_logprobs": null,
+    "logprobs_result": null,
+    "cache_metadata": null,
+    "citation_metadata": null,
+    "interaction_id": null,
+    "environment_id": null,
+    "invocation_id": "e-357c451a-87ff-447a-9e0b-d46c0df9bb2e",
+    "author": "adk_agent",
+    "actions": {
+      "skip_summarization": null,
+      "state_delta": {},
+      "artifact_delta": {},
+      "transfer_to_agent": null,
+      "transfer_reason": null,
+      "escalate": null,
+      "requested_auth_configs": {},
+      "requested_tool_confirmations": {},
+      "compaction": null,
+      "end_of_agent": null,
+      "agent_state": null,
+      "rewind_before_invocation_id": null,
+      "route": null,
+      "render_ui_widgets": null,
+      "set_model_response": null
+    },
+    "output": null,
+    "node_info": {
+      "path": "adk_agent@1",
+      "output_for": null,
+      "message_as_output": null
+    },
+    "long_running_tool_ids": null,
+    "branch": null,
+    "isolation_scope": null,
+    "id": "7439ff88-1b98-494c-ab97-35067943bd5d",
+    "timestamp": 1794838713.8073914
+  }
+]

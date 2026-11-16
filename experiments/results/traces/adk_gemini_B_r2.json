@@ -1,0 +1,351 @@
+[
+  {
+    "model_version": "gemini-3.5-flash-lite",
+    "content": {
+      "parts": [
+        {
+          "media_resolution": null,
+          "code_execution_result": null,
+          "executable_code": null,
+          "file_data": null,
+          "function_call": {
+            "id": "call_1969168430283377120",
+            "args": {
+              "name": "get"
+            },
+            "name": "lookup_http_method",
+            "partial_args": null,
+            "will_continue": null
+          },
+          "function_response": null,
+          "inline_data": null,
+          "text": null,
+          "thought": null,
+          "thought_signature": "EmAKXgFpFH0TEk-zzi57xuG9mkqY9SdJz24PkIuktMkJ02o9owoReDE11AZLIMpcSQluKqZs2Ft3tuWzhIh5kWh7GnhME_xnRefgWpQsz2kFjziO7b5z8tOeIKSeLwJ6fZk=",
+          "video_metadata": null,
+          "tool_call": null,
+          "tool_response": null,
+          "part_metadata": null,
+          "audio_transcription": null,
+          "media_processing": null,
+          "speech_metadata": null
+        },
+        {
+          "media_resolution": null,
+          "code_execution_result": null,
+          "executable_code": null,
+          "file_data": null,
+          "function_call": {
+            "id": "call_1969168430283377051",
+            "args": {
+              "name": "head"
+            },
+            "name": "lookup_http_method",
+            "partial_args": null,
+            "will_continue": null
+          },
+          "function_response": null,
+          "inline_data": null,
+          "text": null,
+          "thought": null,
+          "thought_signature": null,
+          "video_metadata": null,
+          "tool_call": null,
+          "tool_response": null,
+          "part_metadata": null,
+          "audio_transcription": null,
+          "media_processing": null,
+          "speech_metadata": null
+        }
+      ],
+      "role": "model"
+    },
+    "grounding_metadata": null,
+    "partial": null,
+    "turn_complete": null,
+    "turn_complete_reason": null,
+    "interaction_status": null,
+    "finish_reason": "STOP",
+    "error_code": null,
+    "error_message": null,
+    "interrupted": null,
+    "custom_metadata": null,
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 36,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 696,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 696
+        }
+      ],
+      "thoughts_token_count": null,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 732,
+      "traffic_type": null
+    },
+    "cache_creation_token_count": null,
+    "live_session_resumption_update": null,
+    "live_session_id": null,
+    "go_away": null,
+    "voice_activity": null,
+    "input_transcription": null,
+    "output_transcription": null,
+    "avg_logprobs": null,
+    "logprobs_result": null,
+    "cache_metadata": null,
+    "citation_metadata": null,
+    "interaction_id": null,
+    "environment_id": null,
+    "invocation_id": "e-33ba0591-8ec3-4ff4-b0b8-aec0a7739b28",
+    "author": "adk_agent",
+    "actions": {
+      "skip_summarization": null,
+      "state_delta": {},
+      "artifact_delta": {},
+      "transfer_to_agent": null,
+      "transfer_reason": null,
+      "escalate": null,
+      "requested_auth_configs": {},
+      "requested_tool_confirmations": {},
+      "compaction": null,
+      "end_of_agent": null,
+      "agent_state": null,
+      "rewind_before_invocation_id": null,
+      "route": null,
+      "render_ui_widgets": null,
+      "set_model_response": null
+    },
+    "output": null,
+    "node_info": {
+      "path": "adk_agent@1",
+      "output_for": null,
+      "message_as_output": null
+    },
+    "long_running_tool_ids": [],
+    "branch": null,
+    "isolation_scope": null,
+    "id": "47b3d88c-ee65-4af2-9854-308ecfa95a27",
+    "timestamp": 1794838732.2377183
+  },
+  {
+    "model_version": null,
+    "content": {
+      "parts": [
+        {
+          "media_resolution": null,
+          "code_execution_result": null,
+          "executable_code": null,
+          "file_data": null,
+          "function_call": null,
+          "function_response": {
+            "will_continue": null,
+            "scheduling": null,
+            "parts": null,
+            "id": "call_1969168430283377120",
+            "name": "lookup_http_method",
+            "response": {
+              "result": "get: GET запитує передачу поточного подання цільового ресурсу; тіло запиту не має визначеної семантики. Метод безпечний і ідемпотентний: повторний виклик не змінює стан ресурсу (RFC 9110, розд. 9.3.1)."
+            }
+          },
+          "inline_data": null,
+          "text": null,
+          "thought": null,
+          "thought_signature": null,
+          "video_metadata": null,
+          "tool_call": null,
+          "tool_response": null,
+          "part_metadata": null,
+          "audio_transcription": null,
+          "media_processing": null,
+          "speech_metadata": null
+        },
+        {
+          "media_resolution": null,
+          "code_execution_result": null,
+          "executable_code": null,
+          "file_data": null,
+          "function_call": null,
+          "function_response": {
+            "will_continue": null,
+            "scheduling": null,
+            "parts": null,
+            "id": "call_1969168430283377051",
+            "name": "lookup_http_method",
+            "response": {
+              "result": "head: HEAD ідентичний GET, але сервер не надсилає тіло відповіді — лише статус і заголовки, тому метод застосовують для перевірки наявності та метаданих ресурсу. Безпечний і ідемпотентний (RFC 9110, розд. 9.3.2)."
+            }
+          },
+          "inline_data": null,
+          "text": null,
+          "thought": null,
+          "thought_signature": null,
+          "video_metadata": null,
+          "tool_call": null,
+          "tool_response": null,
+          "part_metadata": null,
+          "audio_transcription": null,
+          "media_processing": null,
+          "speech_metadata": null
+        }
+      ],
+      "role": "user"
+    },
+    "grounding_metadata": null,
+    "partial": null,
+    "turn_complete": null,
+    "turn_complete_reason": null,
+    "interaction_status": null,
+    "finish_reason": null,
+    "error_code": null,
+    "error_message": null,
+    "interrupted": null,
+    "custom_metadata": null,
+    "usage_metadata": null,
+    "cache_creation_token_count": null,
+    "live_session_resumption_update": null,
+    "live_session_id": null,
+    "go_away": null,
+    "voice_activity": null,
+    "input_transcription": null,
+    "output_transcription": null,
+    "avg_logprobs": null,
+    "logprobs_result": null,
+    "cache_metadata": null,
+    "citation_metadata": null,
+    "interaction_id": null,
+    "environment_id": null,
+    "invocation_id": "e-33ba0591-8ec3-4ff4-b0b8-aec0a7739b28",
+    "author": "adk_agent",
+    "actions": {
+      "skip_summarization": null,
+      "state_delta": {},
+      "artifact_delta": {},
+      "transfer_to_agent": null,
+      "transfer_reason": null,
+      "escalate": null,
+      "requested_auth_configs": {},
+      "requested_tool_confirmations": {},
+      "compaction": null,
+      "end_of_agent": null,
+      "agent_state": null,
+      "rewind_before_invocation_id": null,
+      "route": null,
+      "render_ui_widgets": null,
+      "set_model_response": null
+    },
+    "output": null,
+    "node_info": {
+      "path": "adk_agent@1",
+      "output_for": null,
+      "message_as_output": null
+    },
+    "long_running_tool_ids": null,
+    "branch": null,
+    "isolation_scope": null,
+    "id": "6d999661-41fc-448e-94a1-8dd9767fdd07",
+    "timestamp": 1794838732.2381103
+  },
+  {
+    "model_version": "gemini-3.5-flash-lite",
+    "content": {
+      "parts": [
+        {
+          "media_resolution": null,
+          "code_execution_result": null,
+          "executable_code": null,
+          "file_data": null,
+          "function_call": null,
+          "function_response": null,
+          "inline_data": null,
+          "text": "Порівняння методів GET і HEAD на основі перевірених даних:\n\n* **GET**: запитує передачу поточного подання цільового ресурсу. Тіло запиту не має визначеної семантики. Метод є безпечним і ідемпотентним (повторний виклик не змінює стан ресурсу).\n* **HEAD**: ідентичний методу GET, але сервер не надсилає тіло відповіді — передаються лише статус і заголовки. Через це HEAD застосовують для перевірки наявності та метаданих ресурсу. Цей метод також є безпечним і ідемпотентним.",
+          "thought": null,
+          "thought_signature": "EmAKXgFpFH0TePB-eAwt0gyMtkFw8kGgw6yRSKfqKe8I3rrMNWGIdGTMPA4Mmat-nGe8aUnZGFIM3q4nuZE5daVet7qXOw6fvyTcepdxR7QoMBsBBZl6oZfkrIrVEdR2w08=",
+          "video_metadata": null,
+          "tool_call": null,
+          "tool_response": null,
+          "part_metadata": null,
+          "audio_transcription": null,
+          "media_processing": null,
+          "speech_metadata": null
+        }
+      ],
+      "role": "model"
+    },
+    "grounding_metadata": null,
+    "partial": null,
+    "turn_complete": null,
+    "turn_complete_reason": null,
+    "interaction_status": null,
+    "finish_reason": "STOP",
+    "error_code": null,
+    "error_message": null,
+    "interrupted": null,
+    "custom_metadata": null,
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 145,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 905,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 905
+        }
+      ],
+      "thoughts_token_count": null,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 1050,
+      "traffic_type": null
+    },
+    "cache_creation_token_count": null,
+    "live_session_resumption_update": null,
+    "live_session_id": null,
+    "go_away": null,
+    "voice_activity": null,
+    "input_transcription": null,
+    "output_transcription": null,
+    "avg_logprobs": null,
+    "logprobs_result": null,
+    "cache_metadata": null,
+    "citation_metadata": null,
+    "interaction_id": null,
+    "environment_id": null,
+    "invocation_id": "e-33ba0591-8ec3-4ff4-b0b8-aec0a7739b28",
+    "author": "adk_agent",
+    "actions": {
+      "skip_summarization": null,
+      "state_delta": {},
+      "artifact_delta": {},
+      "transfer_to_agent": null,
+      "transfer_reason": null,
+      "escalate": null,
+      "requested_auth_configs": {},
+      "requested_tool_confirmations": {},
+      "compaction": null,
+      "end_of_agent": null,
+      "agent_state": null,
+      "rewind_before_invocation_id": null,
+      "route": null,
+      "render_ui_widgets": null,
+      "set_model_response": null
+    },
+    "output": null,
+    "node_info": {
+      "path": "adk_agent@1",
+      "output_for": null,
+      "message_as_output": null
+    },
+    "long_running_tool_ids": null,
+    "branch": null,
+    "isolation_scope": null,
+    "id": "debd081e-5d04-4df8-8e15-d13f89be4679",
+    "timestamp": 1794838733.0152965
+  }
+]

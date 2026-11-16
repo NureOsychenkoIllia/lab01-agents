@@ -1,0 +1,406 @@
+[
+  {
+    "model_version": "gemini-3.5-flash-lite",
+    "content": {
+      "parts": [
+        {
+          "media_resolution": null,
+          "code_execution_result": null,
+          "executable_code": null,
+          "file_data": null,
+          "function_call": {
+            "id": "call_454288828222749391",
+            "args": {
+              "name": "POST"
+            },
+            "name": "lookup_http_method",
+            "partial_args": null,
+            "will_continue": null
+          },
+          "function_response": null,
+          "inline_data": null,
+          "text": null,
+          "thought": null,
+          "thought_signature": "EmAKXgFpFH0TYynRFWhd5J3Kb9qoPbSl0jAOY6trfeUTOLStX-gqkP4yrcbnW1CY9YrAHudcdkBUhWdjnjhcxvKcF1sDiiDUKsJ833F8N4QO_LccuW_3HamBmNnfYXx3g5w=",
+          "video_metadata": null,
+          "tool_call": null,
+          "tool_response": null,
+          "part_metadata": null,
+          "audio_transcription": null,
+          "media_processing": null,
+          "speech_metadata": null
+        },
+        {
+          "media_resolution": null,
+          "code_execution_result": null,
+          "executable_code": null,
+          "file_data": null,
+          "function_call": {
+            "id": "call_454288828222746742",
+            "args": {
+              "name": "PUT"
+            },
+            "name": "lookup_http_method",
+            "partial_args": null,
+            "will_continue": null
+          },
+          "function_response": null,
+          "inline_data": null,
+          "text": null,
+          "thought": null,
+          "thought_signature": null,
+          "video_metadata": null,
+          "tool_call": null,
+          "tool_response": null,
+          "part_metadata": null,
+          "audio_transcription": null,
+          "media_processing": null,
+          "speech_metadata": null
+        },
+        {
+          "media_resolution": null,
+          "code_execution_result": null,
+          "executable_code": null,
+          "file_data": null,
+          "function_call": {
+            "id": "call_454288828222748189",
+            "args": {
+              "name": "PATCH"
+            },
+            "name": "lookup_http_method",
+            "partial_args": null,
+            "will_continue": null
+          },
+          "function_response": null,
+          "inline_data": null,
+          "text": null,
+          "thought": null,
+          "thought_signature": null,
+          "video_metadata": null,
+          "tool_call": null,
+          "tool_response": null,
+          "part_metadata": null,
+          "audio_transcription": null,
+          "media_processing": null,
+          "speech_metadata": null
+        }
+      ],
+      "role": "model"
+    },
+    "grounding_metadata": null,
+    "partial": null,
+    "turn_complete": null,
+    "turn_complete_reason": null,
+    "interaction_status": null,
+    "finish_reason": "STOP",
+    "error_code": null,
+    "error_message": null,
+    "interrupted": null,
+    "custom_metadata": null,
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 54,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 698,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 698
+        }
+      ],
+      "thoughts_token_count": null,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 752,
+      "traffic_type": null
+    },
+    "cache_creation_token_count": null,
+    "live_session_resumption_update": null,
+    "live_session_id": null,
+    "go_away": null,
+    "voice_activity": null,
+    "input_transcription": null,
+    "output_transcription": null,
+    "avg_logprobs": null,
+    "logprobs_result": null,
+    "cache_metadata": null,
+    "citation_metadata": null,
+    "interaction_id": null,
+    "environment_id": null,
+    "invocation_id": "e-aa216465-9c9e-4a0b-b506-0f0275a5fe30",
+    "author": "adk_agent",
+    "actions": {
+      "skip_summarization": null,
+      "state_delta": {},
+      "artifact_delta": {},
+      "transfer_to_agent": null,
+      "transfer_reason": null,
+      "escalate": null,
+      "requested_auth_configs": {},
+      "requested_tool_confirmations": {},
+      "compaction": null,
+      "end_of_agent": null,
+      "agent_state": null,
+      "rewind_before_invocation_id": null,
+      "route": null,
+      "render_ui_widgets": null,
+      "set_model_response": null
+    },
+    "output": null,
+    "node_info": {
+      "path": "adk_agent@1",
+      "output_for": null,
+      "message_as_output": null
+    },
+    "long_running_tool_ids": [],
+    "branch": null,
+    "isolation_scope": null,
+    "id": "9f3fc508-ff72-4afe-906b-f1b7f664666a",
+    "timestamp": 1794838692.121175
+  },
+  {
+    "model_version": null,
+    "content": {
+      "parts": [
+        {
+          "media_resolution": null,
+          "code_execution_result": null,
+          "executable_code": null,
+          "file_data": null,
+          "function_call": null,
+          "function_response": {
+            "will_continue": null,
+            "scheduling": null,
+            "parts": null,
+            "id": "call_454288828222749391",
+            "name": "lookup_http_method",
+            "response": {
+              "result": "post: POST передає подання цільовому ресурсу для обробки за його власною семантикою; типово створює підпорядкований ресурс і відповідає 201 із заголовком Location. Не безпечний і не ідемпотентний: два однакові запити можуть створити два ресурси (RFC 9110, розд. 9.3.3)."
+            }
+          },
+          "inline_data": null,
+          "text": null,
+          "thought": null,
+          "thought_signature": null,
+          "video_metadata": null,
+          "tool_call": null,
+          "tool_response": null,
+          "part_metadata": null,
+          "audio_transcription": null,
+          "media_processing": null,
+          "speech_metadata": null
+        },
+        {
+          "media_resolution": null,
+          "code_execution_result": null,
+          "executable_code": null,
+          "file_data": null,
+          "function_call": null,
+          "function_response": {
+            "will_continue": null,
+            "scheduling": null,
+            "parts": null,
+            "id": "call_454288828222746742",
+            "name": "lookup_http_method",
+            "response": {
+              "result": "put: PUT замінює стан цільового ресурсу поданням із запиту; якщо ресурсу немає, він може бути створений. Ідемпотентний, але не безпечний: повторна передача того самого подання залишає ресурс у тому самому стані (RFC 9110, розд. 9.3.4)."
+            }
+          },
+          "inline_data": null,
+          "text": null,
+          "thought": null,
+          "thought_signature": null,
+          "video_metadata": null,
+          "tool_call": null,
+          "tool_response": null,
+          "part_metadata": null,
+          "audio_transcription": null,
+          "media_processing": null,
+          "speech_metadata": null
+        },
+        {
+          "media_resolution": null,
+          "code_execution_result": null,
+          "executable_code": null,
+          "file_data": null,
+          "function_call": null,
+          "function_response": {
+            "will_continue": null,
+            "scheduling": null,
+            "parts": null,
+            "id": "call_454288828222748189",
+            "name": "lookup_http_method",
+            "response": {
+              "result": "patch: PATCH застосовує до цільового ресурсу часткову зміну, описану в тілі запиту. Не безпечний і не гарантовано ідемпотентний: результат повторного застосування залежить від документу змін, наприклад application/merge-patch+json (RFC 5789, розд. 1–2)."
+            }
+          },
+          "inline_data": null,
+          "text": null,
+          "thought": null,
+          "thought_signature": null,
+          "video_metadata": null,
+          "tool_call": null,
+          "tool_response": null,
+          "part_metadata": null,
+          "audio_transcription": null,
+          "media_processing": null,
+          "speech_metadata": null
+        }
+      ],
+      "role": "user"
+    },
+    "grounding_metadata": null,
+    "partial": null,
+    "turn_complete": null,
+    "turn_complete_reason": null,
+    "interaction_status": null,
+    "finish_reason": null,
+    "error_code": null,
+    "error_message": null,
+    "interrupted": null,
+    "custom_metadata": null,
+    "usage_metadata": null,
+    "cache_creation_token_count": null,
+    "live_session_resumption_update": null,
+    "live_session_id": null,
+    "go_away": null,
+    "voice_activity": null,
+    "input_transcription": null,
+    "output_transcription": null,
+    "avg_logprobs": null,
+    "logprobs_result": null,
+    "cache_metadata": null,
+    "citation_metadata": null,
+    "interaction_id": null,
+    "environment_id": null,
+    "invocation_id": "e-aa216465-9c9e-4a0b-b506-0f0275a5fe30",
+    "author": "adk_agent",
+    "actions": {
+      "skip_summarization": null,
+      "state_delta": {},
+      "artifact_delta": {},
+      "transfer_to_agent": null,
+      "transfer_reason": null,
+      "escalate": null,
+      "requested_auth_configs": {},
+      "requested_tool_confirmations": {},
+      "compaction": null,
+      "end_of_agent": null,
+      "agent_state": null,
+      "rewind_before_invocation_id": null,
+      "route": null,
+      "render_ui_widgets": null,
+      "set_model_response": null
+    },
+    "output": null,
+    "node_info": {
+      "path": "adk_agent@1",
+      "output_for": null,
+      "message_as_output": null
+    },
+    "long_running_tool_ids": null,
+    "branch": null,
+    "isolation_scope": null,
+    "id": "0a80699c-fc91-44d6-b346-1be1fce52fa2",
+    "timestamp": 1794838692.1215885
+  },
+  {
+    "model_version": "gemini-3.5-flash-lite",
+    "content": {
+      "parts": [
+        {
+          "media_resolution": null,
+          "code_execution_result": null,
+          "executable_code": null,
+          "file_data": null,
+          "function_call": null,
+          "function_response": null,
+          "inline_data": null,
+          "text": "Ось порівняння методів POST, PUT і PATCH на основі перевірених даних:\n\n* **POST**:\n  * **Призначення:** передає подання цільовому ресурсу для обробки за його власною семантикою; типово створює підпорядкований ресурс і відповідає 201 із заголовком Location.\n  * **Властивості:** не безпечний і не ідемпотентний (два однакові запити можуть створити два ресурси).\n\n* **PUT**:\n  * **Призначення:** замінює стан цільового ресурсу поданням із запиту; якщо ресурсу немає, він може бути створений.\n  * **Властивості:** ідемпотентний, але не безпечний (повторна передача того самого подання залишає ресурс у тому самому стані).\n\n* **PATCH**:\n  * **Призначення:** застосовує до цільового ресурсу часткову зміну, описану в тілі запиту.\n  * **Властивості:** не безпечний і не гарантовано ідемпотентний (результат повторного застосування залежить від документу змін, наприклад `application/merge-patch+json`).",
+          "thought": null,
+          "thought_signature": "EmAKXgFpFH0T1NmbyuOjXkqi78ogLaffEJN5knGpyf1RiJ5g6oU8p2NXkClWHwHTuHv5yBu__RohHmKgZQ9eRb6hP9_go6ficQ6ct_gEbYvYD5Qu4y4D6zn6rm0-30Q2fQ4=",
+          "video_metadata": null,
+          "tool_call": null,
+          "tool_response": null,
+          "part_metadata": null,
+          "audio_transcription": null,
+          "media_processing": null,
+          "speech_metadata": null
+        }
+      ],
+      "role": "model"
+    },
+    "grounding_metadata": null,
+    "partial": null,
+    "turn_complete": null,
+    "turn_complete_reason": null,
+    "interaction_status": null,
+    "finish_reason": "STOP",
+    "error_code": null,
+    "error_message": null,
+    "interrupted": null,
+    "custom_metadata": null,
+    "usage_metadata": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 270,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 1032,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 1032
+        }
+      ],
+      "thoughts_token_count": null,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 1302,
+      "traffic_type": null
+    },
+    "cache_creation_token_count": null,
+    "live_session_resumption_update": null,
+    "live_session_id": null,
+    "go_away": null,
+    "voice_activity": null,
+    "input_transcription": null,
+    "output_transcription": null,
+    "avg_logprobs": null,
+    "logprobs_result": null,
+    "cache_metadata": null,
+    "citation_metadata": null,
+    "interaction_id": null,
+    "environment_id": null,
+    "invocation_id": "e-aa216465-9c9e-4a0b-b506-0f0275a5fe30",
+    "author": "adk_agent",
+    "actions": {
+      "skip_summarization": null,
+      "state_delta": {},
+      "artifact_delta": {},
+      "transfer_to_agent": null,
+      "transfer_reason": null,
+      "escalate": null,
+      "requested_auth_configs": {},
+      "requested_tool_confirmations": {},
+      "compaction": null,
+      "end_of_agent": null,
+      "agent_state": null,
+      "rewind_before_invocation_id": null,
+      "route": null,
+      "render_ui_widgets": null,
+      "set_model_response": null
+    },
+    "output": null,
+    "node_info": {
+      "path": "adk_agent@1",
+      "output_for": null,
+      "message_as_output": null
+    },
+    "long_running_tool_ids": null,
+    "branch": null,
+    "isolation_scope": null,
+    "id": "92218e0c-7ff0-4ba0-8beb-cf59be24d8bc",
+    "timestamp": 1794838693.2649527
+  }
+]

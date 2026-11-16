@@ -1,0 +1,18 @@
+[project]
+name = "manual-agent"
+version = "1.0.0"
+description = "Мінімальний AI-агент із циклом Observe-Reason-Act-Evaluate без agent framework (ЛР 1)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "google-genai>=3.3.0",
+    "python-dotenv>=1.2.4",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]

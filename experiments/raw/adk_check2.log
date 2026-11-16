@@ -1,0 +1,143 @@
+[user]: Порівняй GET і HEAD
+[adk_agent]: 
+[tool_call: lookup_http_method({"name": "get"})]
+[tool_call: lookup_http_method({"name": "head"})]
+{
+  "modelVersion": "gemini-3.5-flash-lite",
+  "content": {
+    "parts": [
+      {
+        "functionCall": {
+          "id": "call_13374242107675248673",
+          "args": {
+            "name": "get"
+          },
+          "name": "lookup_http_method"
+        },
+        "thoughtSignature": "EmAKXgFpFH0TSxJRHBEmanZUS5pVxErWxR2NT4AaGl2fd1U_r7UZUdGciCh8p97QuoLb3QdJl33wG1lkk3ciwlK61TDtw7o6UhbxXIOcpGcHbsMWXXC8y8seq6BqZaCmx0Y="
+      },
+      {
+        "functionCall": {
+          "id": "call_13374242107675246674",
+          "args": {
+            "name": "head"
+          },
+          "name": "lookup_http_method"
+        }
+      }
+    ],
+    "role": "model"
+  },
+  "finishReason": "STOP",
+  "usageMetadata": {
+    "candidatesTokenCount": 36,
+    "promptTokenCount": 696,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 696
+      }
+    ],
+    "totalTokenCount": 732
+  },
+  "invocationId": "e-67ddda10-3949-4a79-b154-ca3b8c00db16",
+  "author": "adk_agent",
+  "actions": {
+    "stateDelta": {},
+    "artifactDelta": {},
+    "requestedAuthConfigs": {},
+    "requestedToolConfirmations": {}
+  },
+  "nodeInfo": {
+    "path": "adk_agent@1"
+  },
+  "longRunningToolIds": [],
+  "id": "f98673ce-10c2-4093-9a28-24bf60031790",
+  "timestamp": 1794838510.4170449
+}
+
+[tool_response: lookup_http_method -> {"result": "get: GET \u0437\u0430\u043f\u0438\u0442\u0443\u0454 \u043f\u0435\u0440\u0435\u0434\u0430\u0447\u0443 \u043f\u043e\u0442\u043e\u0447\u043d\u043e\u0433\u043e \u043f\u043e\u0434\u0430\u043d\u043d\u044f \u0446\u0456\u043b\u044c\u043e\u0432\u043e\u0433\u043e \u0440\u0435\u0441\u0443\u0440\u0441\u0443; \u0442\u0456\u043b\u043e \u0437\u0430\u043f\u0438\u0442\u0443 \u043d\u0435 \u043c\u0430\u0454 \u0432\u0438\u0437\u043d\u0430\u0447\u0435\u043d\u043e\u0457 \u0441\u0435\u043c\u0430\u043d\u0442\u0438\u043a\u0438. \u041c\u0435\u0442\u043e\u0434 \u0431\u0435\u0437\u043f\u0435\u0447\u043d\u0438\u0439 \u0456 \u0456\u0434\u0435\u043c\u043f\u043e\u0442\u0435\u043d\u0442\u043d\u0438\u0439: \u043f\u043e\u0432\u0442\u043e\u0440\u043d\u0438\u0439 \u0432\u0438\u043a\u043b\u0438\u043a \u043d\u0435 \u0437\u043c\u0456\u043d\u044e\u0454 \u0441\u0442\u0430\u043d \u0440\u0435\u0441\u0443\u0440\u0441\u0443 (RFC 9110, \u0440\u043e\u0437\u0434. 9.3.1)."}]
+[tool_response: lookup_http_method -> {"result": "head: HEAD \u0456\u0434\u0435\u043d\u0442\u0438\u0447\u043d\u0438\u0439 GET, \u0430\u043b\u0435 \u0441\u0435\u0440\u0432\u0435\u0440 \u043d\u0435 \u043d\u0430\u0434\u0441\u0438\u043b\u0430\u0454 \u0442\u0456\u043b\u043e \u0432\u0456\u0434\u043f\u043e\u0432\u0456\u0434\u0456 \u2014 \u043b\u0438\u0448\u0435 \u0441\u0442\u0430\u0442\u0443\u0441 \u0456 \u0437\u0430\u0433\u043e\u043b\u043e\u0432\u043a\u0438, \u0442\u043e\u043c\u0443 \u043c\u0435\u0442\u043e\u0434 \u0437\u0430\u0441\u0442\u043e\u0441\u043e\u0432\u0443\u044e\u0442\u044c \u0434\u043b\u044f \u043f\u0435\u0440\u0435\u0432\u0456\u0440\u043a\u0438 \u043d\u0430\u044f\u0432\u043d\u043e\u0441\u0442\u0456 \u0442\u0430 \u043c\u0435\u0442\u0430\u0434\u0430\u043d\u0438\u0445 \u0440\u0435\u0441\u0443\u0440\u0441\u0443. \u0411\u0435\u0437\u043f\u0435\u0447\u043d\u0438\u0439 \u0456 \u0456\u0434\u0435\u043c\u043f\u043e\u0442\u0435\u043d\u0442\u043d\u0438\u0439 (RFC 9110, \u0440\u043e\u0437\u0434. 9.3.2)."}]
+{
+  "content": {
+    "parts": [
+      {
+        "functionResponse": {
+          "id": "call_13374242107675248673",
+          "name": "lookup_http_method",
+          "response": {
+            "result": "get: GET \u0437\u0430\u043f\u0438\u0442\u0443\u0454 \u043f\u0435\u0440\u0435\u0434\u0430\u0447\u0443 \u043f\u043e\u0442\u043e\u0447\u043d\u043e\u0433\u043e \u043f\u043e\u0434\u0430\u043d\u043d\u044f \u0446\u0456\u043b\u044c\u043e\u0432\u043e\u0433\u043e \u0440\u0435\u0441\u0443\u0440\u0441\u0443; \u0442\u0456\u043b\u043e \u0437\u0430\u043f\u0438\u0442\u0443 \u043d\u0435 \u043c\u0430\u0454 \u0432\u0438\u0437\u043d\u0430\u0447\u0435\u043d\u043e\u0457 \u0441\u0435\u043c\u0430\u043d\u0442\u0438\u043a\u0438. \u041c\u0435\u0442\u043e\u0434 \u0431\u0435\u0437\u043f\u0435\u0447\u043d\u0438\u0439 \u0456 \u0456\u0434\u0435\u043c\u043f\u043e\u0442\u0435\u043d\u0442\u043d\u0438\u0439: \u043f\u043e\u0432\u0442\u043e\u0440\u043d\u0438\u0439 \u0432\u0438\u043a\u043b\u0438\u043a \u043d\u0435 \u0437\u043c\u0456\u043d\u044e\u0454 \u0441\u0442\u0430\u043d \u0440\u0435\u0441\u0443\u0440\u0441\u0443 (RFC 9110, \u0440\u043e\u0437\u0434. 9.3.1)."
+          }
+        }
+      },
+      {
+        "functionResponse": {
+          "id": "call_13374242107675246674",
+          "name": "lookup_http_method",
+          "response": {
+            "result": "head: HEAD \u0456\u0434\u0435\u043d\u0442\u0438\u0447\u043d\u0438\u0439 GET, \u0430\u043b\u0435 \u0441\u0435\u0440\u0432\u0435\u0440 \u043d\u0435 \u043d\u0430\u0434\u0441\u0438\u043b\u0430\u0454 \u0442\u0456\u043b\u043e \u0432\u0456\u0434\u043f\u043e\u0432\u0456\u0434\u0456 \u2014 \u043b\u0438\u0448\u0435 \u0441\u0442\u0430\u0442\u0443\u0441 \u0456 \u0437\u0430\u0433\u043e\u043b\u043e\u0432\u043a\u0438, \u0442\u043e\u043c\u0443 \u043c\u0435\u0442\u043e\u0434 \u0437\u0430\u0441\u0442\u043e\u0441\u043e\u0432\u0443\u044e\u0442\u044c \u0434\u043b\u044f \u043f\u0435\u0440\u0435\u0432\u0456\u0440\u043a\u0438 \u043d\u0430\u044f\u0432\u043d\u043e\u0441\u0442\u0456 \u0442\u0430 \u043c\u0435\u0442\u0430\u0434\u0430\u043d\u0438\u0445 \u0440\u0435\u0441\u0443\u0440\u0441\u0443. \u0411\u0435\u0437\u043f\u0435\u0447\u043d\u0438\u0439 \u0456 \u0456\u0434\u0435\u043c\u043f\u043e\u0442\u0435\u043d\u0442\u043d\u0438\u0439 (RFC 9110, \u0440\u043e\u0437\u0434. 9.3.2)."
+          }
+        }
+      }
+    ],
+    "role": "user"
+  },
+  "invocationId": "e-67ddda10-3949-4a79-b154-ca3b8c00db16",
+  "author": "adk_agent",
+  "actions": {
+    "stateDelta": {},
+    "artifactDelta": {},
+    "requestedAuthConfigs": {},
+    "requestedToolConfirmations": {}
+  },
+  "nodeInfo": {
+    "path": "adk_agent@1"
+  },
+  "id": "91b917ce-6eca-47f3-900c-9fb000d63deb",
+  "timestamp": 1794838510.4182038
+}
+Ось порівняння методів **GET** і **HEAD** на основі перевірених даних:
+
+* **GET**: запитує передачу поточного подання цільового ресурсу; тіло запиту не має визначеної семантики. Метод є безпечним та ідемпотентним — його повторний виклик не змінює стан ресурсу.
+* **HEAD**: ідентичний GET, але сервер не надсилає тіло відповіді — повертає лише статус і заголовки. Через це його застосовують для перевірки наявності та метаданих ресурсу. Цей метод також є безпечним і ідемпотентним.
+{
+  "modelVersion": "gemini-3.5-flash-lite",
+  "content": {
+    "parts": [
+      {
+        "text": "\u041e\u0441\u044c \u043f\u043e\u0440\u0456\u0432\u043d\u044f\u043d\u043d\u044f \u043c\u0435\u0442\u043e\u0434\u0456\u0432 **GET** \u0456 **HEAD** \u043d\u0430 \u043e\u0441\u043d\u043e\u0432\u0456 \u043f\u0435\u0440\u0435\u0432\u0456\u0440\u0435\u043d\u0438\u0445 \u0434\u0430\u043d\u0438\u0445:\n\n* **GET**: \u0437\u0430\u043f\u0438\u0442\u0443\u0454 \u043f\u0435\u0440\u0435\u0434\u0430\u0447\u0443 \u043f\u043e\u0442\u043e\u0447\u043d\u043e\u0433\u043e \u043f\u043e\u0434\u0430\u043d\u043d\u044f \u0446\u0456\u043b\u044c\u043e\u0432\u043e\u0433\u043e \u0440\u0435\u0441\u0443\u0440\u0441\u0443; \u0442\u0456\u043b\u043e \u0437\u0430\u043f\u0438\u0442\u0443 \u043d\u0435 \u043c\u0430\u0454 \u0432\u0438\u0437\u043d\u0430\u0447\u0435\u043d\u043e\u0457 \u0441\u0435\u043c\u0430\u043d\u0442\u0438\u043a\u0438. \u041c\u0435\u0442\u043e\u0434 \u0454 \u0431\u0435\u0437\u043f\u0435\u0447\u043d\u0438\u043c \u0442\u0430 \u0456\u0434\u0435\u043c\u043f\u043e\u0442\u0435\u043d\u0442\u043d\u0438\u043c \u2014 \u0439\u043e\u0433\u043e \u043f\u043e\u0432\u0442\u043e\u0440\u043d\u0438\u0439 \u0432\u0438\u043a\u043b\u0438\u043a \u043d\u0435 \u0437\u043c\u0456\u043d\u044e\u0454 \u0441\u0442\u0430\u043d \u0440\u0435\u0441\u0443\u0440\u0441\u0443.\n* **HEAD**: \u0456\u0434\u0435\u043d\u0442\u0438\u0447\u043d\u0438\u0439 GET, \u0430\u043b\u0435 \u0441\u0435\u0440\u0432\u0435\u0440 \u043d\u0435 \u043d\u0430\u0434\u0441\u0438\u043b\u0430\u0454 \u0442\u0456\u043b\u043e \u0432\u0456\u0434\u043f\u043e\u0432\u0456\u0434\u0456 \u2014 \u043f\u043e\u0432\u0435\u0440\u0442\u0430\u0454 \u043b\u0438\u0448\u0435 \u0441\u0442\u0430\u0442\u0443\u0441 \u0456 \u0437\u0430\u0433\u043e\u043b\u043e\u0432\u043a\u0438. \u0427\u0435\u0440\u0435\u0437 \u0446\u0435 \u0439\u043e\u0433\u043e \u0437\u0430\u0441\u0442\u043e\u0441\u043e\u0432\u0443\u044e\u0442\u044c \u0434\u043b\u044f \u043f\u0435\u0440\u0435\u0432\u0456\u0440\u043a\u0438 \u043d\u0430\u044f\u0432\u043d\u043e\u0441\u0442\u0456 \u0442\u0430 \u043c\u0435\u0442\u0430\u0434\u0430\u043d\u0438\u0445 \u0440\u0435\u0441\u0443\u0440\u0441\u0443. \u0426\u0435\u0439 \u043c\u0435\u0442\u043e\u0434 \u0442\u0430\u043a\u043e\u0436 \u0454 \u0431\u0435\u0437\u043f\u0435\u0447\u043d\u0438\u043c \u0456 \u0456\u0434\u0435\u043c\u043f\u043e\u0442\u0435\u043d\u0442\u043d\u0438\u043c.",
+        "thoughtSignature": "EmAKXgFpFH0TER14xDf_W1HpnJutOhV-TmSDGIi9fFuTp3_PxjUWpVFIfd24IRTmzdL_oCGr11_E7G8KAVjUqkHH9ZM42ZsQVMn1VdzFXouI4qdi-XeuGLLLoac37i_uIIs="
+      }
+    ],
+    "role": "model"
+  },
+  "finishReason": "STOP",
+  "usageMetadata": {
+    "candidatesTokenCount": 149,
+    "promptTokenCount": 905,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 905
+      }
+    ],
+    "totalTokenCount": 1054
+  },
+  "invocationId": "e-67ddda10-3949-4a79-b154-ca3b8c00db16",
+  "author": "adk_agent",
+  "actions": {
+    "stateDelta": {},
+    "artifactDelta": {},
+    "requestedAuthConfigs": {},
+    "requestedToolConfirmations": {}
+  },
+  "nodeInfo": {
+    "path": "adk_agent@1"
+  },
+  "id": "092d8b46-96bf-4728-88a9-7bfc61dd4025",
+  "timestamp": 1794838511.4340286
+}
+
+
+Session: 50ecd45d-4118-44f8-aa36-39f39e05afaf
+  Resume with: agents-cli run "<message>" --session-id 50ecd45d-4118-44f8-aa36-39f39e05afaf

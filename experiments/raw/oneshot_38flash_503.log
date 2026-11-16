@@ -1,0 +1,54 @@
+model=gemini-3.8-flash repeats=1 out=experiments/results/run_manual_20261116_152840.jsonl
+[stderr] Traceback (most recent call last):
+  File "/home/xelenium/Documents/uni/4/ШІуПІ/ЛР1/lab01-agents/experiments/run_manual.py", line 128, in <module>
+    main()
+  File "/home/xelenium/Documents/uni/4/ШІуПІ/ЛР1/lab01-agents/experiments/run_manual.py", line 118, in main
+    run_oneshot(query, repeat, out)
+  File "/home/xelenium/Documents/uni/4/ШІуПІ/ЛР1/lab01-agents/experiments/run_manual.py", line 33, in run_oneshot
+    answer = one_shot_answer(query["query"])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/xelenium/Documents/uni/4/ШІуПІ/ЛР1/lab01-agents/manual-agent/baseline.py", line 7, in one_shot_answer
+    response = get_client().models.generate_content(model=MODEL, contents=goal)
+[stderr]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/xelenium/Documents/uni/4/ШІуПІ/ЛР1/lab01-agents/manual-agent/.venv/lib/python3.12/site-packages/google/genai/models.py", line 6052, in generate_content
+[stderr]     response = self._generate_content_with_continuation(
+[stderr]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/xelenium/Documents/uni/4/ШІуПІ/ЛР1/lab01-agents/manual-agent/.venv/lib/python3.12/site-packages/google/genai/models.py", line 5893, in _generate_content_with_continuation
+[stderr]     response = self._generate_content(
+[stderr]                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/xelenium/Documents/uni/4/ШІуПІ/ЛР1/lab01-agents/manual-agent/.venv/lib/python3.12/site-packages/google/genai/models.py", line 4441, in _generate_content
+[stderr]     response = self._api_client.request(
+[stderr]                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/xelenium/Documents/uni/4/ШІуПІ/ЛР1/lab01-agents/manual-agent/.venv/lib/python3.12/site-packages/google/genai/_api_client.py", line 2179, in request
+[stderr]     response = self._request(http_request, http_options, stream=False)
+[stderr]                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[stderr]   File "/home/xelenium/Documents/uni/4/ШІуПІ/ЛР1/lab01-agents/manual-agent/.venv/lib/python3.12/site-packages/google/genai/_api_client.py", line 1955, in _request
+[stderr]     return self._retry(self._request_once, http_request, stream)  # type: ignore[no-any-return]
+[stderr]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/xelenium/Documents/uni/4/ШІуПІ/ЛР1/lab01-agents/manual-agent/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 470, in __call__
+[stderr]     do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/xelenium/Documents/uni/4/ШІуПІ/ЛР1/lab01-agents/manual-agent/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 371, in iter
+[stderr]     result = action(retry_state)
+[stderr]              ^^^^^^^^^^^^^^^^^^^
+  File "/home/xelenium/Documents/uni/4/ШІуПІ/ЛР1/lab01-agents/manual-agent/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 413, in exc_check
+[stderr]     raise retry_exc.reraise()
+[stderr]           ^^^^^^^^^^^^^^^^^^^
+  File "/home/xelenium/Documents/uni/4/ШІуПІ/ЛР1/lab01-agents/manual-agent/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 184, in reraise
+[stderr]     raise self.last_attempt.result()
+[stderr]           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/xelenium/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+[stderr]     return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/xelenium/.local/share/uv/python/cpython-3.12.13-linux-x86_64-gnu/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+[stderr]     raise self._exception
+[stderr]   File "/home/xelenium/Documents/uni/4/ШІуПІ/ЛР1/lab01-agents/manual-agent/.venv/lib/python3.12/site-packages/tenacity/__init__.py", line 473, in __call__
+[stderr]     result = fn(*args, **kwargs)
+[stderr]              ^^^^^^^^^^^^^^^^^^^
+[stderr]   File "/home/xelenium/Documents/uni/4/ШІуПІ/ЛР1/lab01-agents/manual-agent/.venv/lib/python3.12/site-packages/google/genai/_api_client.py", line 1932, in _request_once
+[stderr]     errors.APIError.raise_for_response(response)
+[stderr]   File "/home/xelenium/Documents/uni/4/ШІуПІ/ЛР1/lab01-agents/manual-agent/.venv/lib/python3.12/site-packages/google/genai/errors.py", line 187, in raise_for_response
+[stderr]     cls.raise_error(response.status_code, response_json, response)
+[stderr]   File "/home/xelenium/Documents/uni/4/ШІуПІ/ЛР1/lab01-agents/manual-agent/.venv/lib/python3.12/site-packages/google/genai/errors.py", line 218, in raise_error
+[stderr]     raise ServerError(status_code, response_json, response)
+[stderr] google.genai.errors.ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
