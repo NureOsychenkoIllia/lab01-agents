@@ -60,7 +60,7 @@
 
 #figure(image("image/repo_tree.png", width: 100%), caption: [Структура репозиторію lab01-agents])
 
-#figure(image("image/git_status.png", width: 100%), caption: [Git status перед фінальним комітом: 110 файлів, жодного .env, обидва файли ключа ігноруються])
+#figure(image("image/git_status.png", width: 100%), caption: [Git status перед фінальним комітом: у переліку немає жодного файла .env, обидва ключі ігноруються])
 
 == Архітектурна схема власного агента
 
